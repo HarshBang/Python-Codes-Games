@@ -1,0 +1,11 @@
+import numpy as np
+names = np.array(['Bob', 'Joe', 'Will', 'Bob', 'Will', 'Joe', 'Joe'])
+print(names=='Bob')
+print(names!='Bob')
+mask = (names == 'Bob') | (names == 'Will')
+print(mask)
+arr = np.random.randn(100)
+print((arr > 0).sum())
+bools = np.array([False, False, True, False])
+print(bools.any())
+print(bools.all())

@@ -1,0 +1,15 @@
+li1=[1,2,3,1,2,3,3,4,5,6,3,4,6,3]
+print(li1.count(3))
+li1.insert(6,44)
+print(li1)
+print(li1.pop(3))
+print(li1)
+li1.remove(3)
+print(li1)
+li1.reverse()
+print(li1)
+li1.sort()
+print(li1)
+li2=[10,20,30]
+li1.extend(li2)
+print(li1)
